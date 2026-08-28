@@ -193,6 +193,7 @@ export default function Dashboard() {
               <div className="relative">
                 <input
                   type="tel"
+                  // value={'+254715035359'}
                   value={phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   placeholder="+1234567890"
